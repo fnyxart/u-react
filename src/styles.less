@@ -1,0 +1,35 @@
+@c1:indigo;
+@c2:spin(@c1,-90);
+
+.claymorph-container {
+  width:360px;
+  height:auto;
+  background:linear-gradient(to bottom right, fade(white,33%), fade(white,20%), fade(white,20%), fade(white,40%));
+  border-radius:64px;
+  box-shadow:inset 1px 1px 0px fade(white,33%), inset 9px 9px 36px fade(lighten(@c1,30%),50%), inset -9px -9px 36px  fade(lighten(@c1,15%),50%), 1px 1px 0px lighten(@c1,40%), 18px 18px 36px fade(darken(@c1,10%),50%);
+  padding:36px 36px;
+  -webkit-backdrop-filter:blur(5px);
+  backdrop-filter:blur(5px);
+  position:relative;
+}
+
+h1 {
+  color:white;
+  text-transform:uppercase;
+  font-size:24px;
+  font-style:italic;
+  line-height:1
+}
+
+body {
+  background:linear-gradient(to bottom right, @c1, darken(@c1,20%));
+  height:98.65vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:system-ui, sans-serif;
+  font-size:18px;
+  line-height:1.45;
+  color:white;
+  text-shadow:1px 1px 0.1em fade(@c1,50%)
+}
