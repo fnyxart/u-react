@@ -1,7 +1,7 @@
-function Guest() {
+function Guest(props) {
   return (
     <div className="card">
-      <h2>Name</h2>
+      <h2>{props.name}</h2>
       <div className="actions">
         <button className="btn">Delete</button>
       </div>

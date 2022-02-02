@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="claymorph-container">
       <h1>My guests</h1>
-      <Guest />
-      <Guest />
-      <Guest />
+      <Guest name='Fun Ram'/>
+      <Guest name='Very Useful'/>
+      <Guest name='The Villain'/>
     </div>
   );
 }
